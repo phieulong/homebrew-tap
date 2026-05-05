@@ -1,16 +1,16 @@
 class ClaudeUsageTracker < Formula
   desc "macOS menu bar app tracking Claude AI session + weekly token usage"
   homepage "https://github.com/phieulong/claude-usage-tracker"
-  version "1.0.0"
+  version "2.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/phieulong/claude-usage-tracker/releases/download/v1.0.0/claude-usage-tracker-aarch64-apple-darwin.tar.gz"
-      sha256 "6461042d5dd5fde62dbfe7fe67c669a6016062acaab28b0e282236ddc818869f"
+      url "https://github.com/phieulong/claude-usage-tracker/releases/download/v2.0.0/claude-usage-tracker-aarch64-apple-darwin.tar.gz"
+      sha256 "24af8d8f978abe093a0f7ff7eaf36a281842d942e12f532e4ea1271af72fcdc9"
     else
-      url "https://github.com/phieulong/claude-usage-tracker/releases/download/v1.0.0/claude-usage-tracker-x86_64-apple-darwin.tar.gz"
-      sha256 "deeb3997aecd4f7cc1edb9233bc8f223672d451caca20ed5e4e8ad89c0134d87"
+      url "https://github.com/phieulong/claude-usage-tracker/releases/download/v2.0.0/claude-usage-tracker-x86_64-apple-darwin.tar.gz"
+      sha256 "8ec456f4e32ff49fdc224562719badd6d2489f0d4ee7b73b50d0d0f92563950c"
     end
   end
 
